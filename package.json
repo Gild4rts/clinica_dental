@@ -1,0 +1,43 @@
+{
+  "name": "clinica_dental",
+  "version": "1.0.0",
+  "description": "🚀 Proyecto Backend Node.js - Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.6",
+    "hbs": "^4.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "path": "^0.12.7",
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gild4rts/clinica_dental.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gild4rts/clinica_dental/issues"
+  },
+  "homepage": "https://github.com/Gild4rts/clinica_dental#readme"
+}

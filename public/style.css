@@ -1,0 +1,103 @@
+/* --- RESET Y BASES (Tu estilo original) --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- ADAPTACIÓN PARA BOOTSTRAP (Para que no se rompa la agenda) --- */
+.navbar {
+    background-color: #002d5a !important; /* El azul oscuro de tu logo */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Estilo de tus pestañas (Tabs) */
+.nav-tabs .nav-link {
+    color: #002d5a;
+    font-weight: bold;
+    border: none;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #3498db !important;
+    color: white !important;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+/* --- TUS TARJETAS DE CITAS (Mejoradas) --- */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: white;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* El borde dinámico que tenías en tu código */
+#contenedorCitas .card {
+    border-left: 5px solid #3498db;
+}
+
+/* --- FORMULARIOS (Tu estilo de inputs) --- */
+label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input.form-control, textarea.form-control {
+    border: 2px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+input.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* --- TABLA DE HISTORIAL --- */
+.table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #f8f9fa;
+}
+
+.table th {
+    color: #3498db;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* --- BOTONES DE ACCIÓN --- */
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
